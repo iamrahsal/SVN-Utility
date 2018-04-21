@@ -1,0 +1,386 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Syncopate');
+@import url('https://fonts.googleapis.com/css?family=Fascinate');
+</style>
+
+body {
+	font-size: 14px; 
+	background-color: #f9f1e8;
+	font-family:"Open Sans", Arial, Verdana;
+	}
+	
+#head {
+	height: 65px;
+    width: 100%;
+    background-color: #5D4037;
+	float:top;
+	/*box-shadow: 0px 3px 10px #888888;*/
+	} 
+	
+	
+.sq {
+	padding-top: 7px;
+	
+	position:absolute;left:-50px;padding-left: 0px;
+	right:450px;
+	}
+	
+	
+.headerwrap h1 {
+	padding-top : 10px;
+	padding-left: 50px;
+	padding-bottom: 0;
+	text-align: left;
+	color: #5D4037;
+	font-size: 14px;
+	font-family: 'Fascinate', cursive;
+	-webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+@-webkit-keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+    }
+         
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+    }
+         
+.fadeIn {
+	-webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    }
+	
+.headerwrap p {
+	padding-top: 15px;
+	position: relative;
+	  -webkit-animation-name: animatebottom;
+	  -webkit-animation-duration: 2s;
+	  animation-name: animatebottom;
+	  animation-duration: 2s;
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+
+	 }}
+	
+.headerwrap p {
+	
+	}
+
+p.desc {
+	padding-left: 50px;
+	text-align: left;
+	color: #5D4037;
+	font-size: 20px;
+	font-family:"Open Sans", Arial, Verdana;
+	}
+	
+.li a {
+	background-color: none;
+	color: white;
+	font-family:"Open Sans", Arial, Verdana;
+	padding: 10px 20px;
+    margin-top: 1px;
+	display: inline-block;
+	}
+
+a {
+	text-decoration: none;
+	}
+	
+.li a:hover {
+	text-decoration: none;
+	color: #192d4c;
+	background-color: white;
+	}
+
+.li {
+	padding-top: 10px;
+	padding-right: 10px;
+	text-align: right;
+	}
+	
+.user_login {
+	text-align: center;
+	font-size: 15px;
+	margin: 0 auto;
+	margin-top: 15%;
+	padding: 50px;
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+	font-family:"Open Sans", Arial, Verdana;
+	width: 50%;
+    border: 0px solid black;
+	background: rgb(208, 202, 182);
+	/*box-shadow: 10px 10px 30px #000000;*/
+	}
+
+.user_login label {
+	display: block; 
+	margin-bottom:5px;
+	}
+	
+input { 
+    text-align: center; 
+}	
+	
+.user_login input.placeholder {
+    text-align: center;
+}
+
+.user_login input[type="text"], 
+.user_login input[type="email"], 
+.user_login input[type="password"] {
+	display: block; 
+	width: 50%; 
+	padding: 10px; 
+	border:2px solid white; 
+	color:#5b5b5b;
+	background: transparent;
+	font-family:"Open Sans", Arial, Verdana;
+	}
+
+.btn {
+	padding:10px 20px; 
+	color: white;
+	background: #32416c;
+	font-family:"Open Sans", Arial, Verdana;
+	}
+
+.btn:hover {
+	background: #ccd2e2;
+	color: white;
+	}
+	
+.lik {
+	padding:10px 20px; 
+	}
+	
+.lik a {
+	border: none;
+	text-decoration: none;
+	color: #192d4c;
+	background-color: transparent;
+	}
+
+	.lik a:hover {
+	text-decoration: none;
+	}
+	.lik a:checked {
+	text-decoration: none;
+	}
+
+	
+	
+	/*-----*/
+	
+::-webkit-input-placeholder {
+   text-align: center;
+   color: #5e5e5e;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+   color: #5e5e5e;
+}
+
+:-moz-placeholder {  /* Firefox 19+ */
+   text-align: center; 
+	color: #5e5e5e;   
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+   color: #5e5e5e;
+}
+
+
+
+
+.one-by-three{
+	width: 33.3%;
+	float: left;
+    }
+	
+.immg {
+	float:left;
+	}
+
+.boks {
+	border: 0px solid black;
+	border-radius: 5px;
+	background: #e8f6f7;
+	width: 85%;
+	height: 180px;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.card {
+	padding-top: 50px;
+	}
+
+/*-----clear fix-----*/
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+
+
+
+
+
+
+
+
+/*---Responsive---*/
+
+@media(max-width: 700px){
+	
+	
+	#head {
+	height: 50px;
+    width: 100%;
+	float:top;
+	border-bottom: 2px solid transparent;
+	} 
+	
+.headerwrap h1 {
+	padding-top :40px;
+	padding-left: 0px;
+	padding-bottom: 0;
+	text-align: center;
+	font-size: 70px;
+	font-family: 'Fascinate', cursive;
+	}
+
+p.desc {
+	padding-top: 5px;
+	padding-left: 0px;
+	text-align: center;
+	font-size: 15px;
+	font-family:"Open Sans", Arial, Verdana;
+	}
+	
+.li a {
+	background-color: none;
+	color: white;
+	font-family:"Open Sans", Arial, Verdana;
+	border: 4px solid transparent;
+	padding: 5px 10px;
+    margin-top: 4px;
+	font-size: 12px;
+	display: inline-block;
+	}
+
+a {
+	text-decoration: none;
+	}
+
+.li {
+	padding-top: 1px;
+	padding-right: 0px;
+	text-align: center;
+	}
+	
+	
+	
+	
+	
+.user_login {
+	text-align: center;
+	font-size: 15px;
+	margin: 0 auto;
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+	padding: 25px 0;
+	font-family:"Open Sans", Arial, Verdana;
+	width: 90%;
+    border: 0px solid black;
+	background: #d6f0f9;
+	box-shadow: 10px 10px 30px #000000;
+	}
+
+.user_login label {
+	display: block; 
+	margin-bottom:5px;
+	}
+	
+input { 
+    text-align: center; 
+}	
+	
+.user_login input.placeholder {
+    text-align: center;
+}
+
+.user_login input[type="text"], 
+.user_login input[type="email"], 
+.user_login input[type="password"] {
+	display: block; 
+	width: 75%; 
+	padding: 5px; 
+	border:1px solid white; 
+	color:#5b5b5b;
+	background: transparent;
+	font-family:"Open Sans", Arial, Verdana;
+	}
+
+.btn {
+	padding:5px 10px; 
+	color: white;
+	background: #32416c;
+	font-family:"Open Sans", Arial, Verdana;
+	}
+
+.btn:hover {
+	background: #ccd2e2;
+	color: white;
+	}
+	
+.lik {
+	padding:5px 10px; 
+	}
+	
+.lik a {
+	border: none;
+	}
+	
+
+.one-by-three{
+		float: none;
+		width: 100%;
+		padding-bottom: 30px;
+		
+	}
+
+.boks {
+	border: 0px solid black;
+	width: 100%;
+	text-align: center;
+}
+
+	
+	
+}

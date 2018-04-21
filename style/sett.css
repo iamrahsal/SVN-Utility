@@ -1,0 +1,162 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+	background-color: #ffe0b2;
+	padding:20px;
+	margin:0 auto;
+	height:310px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.cal{
+	font-size:20px;
+	color:white;
+	background:#5D4037;
+	padding-left:12px;
+	padding-right:12px;
+	padding-top:7px;
+	padding-bottom:9px;
+	border: none;
+	cursor:pointer;
+		border-radius:50%;
+	
+	}
+.add{
+	float:right;
+	margin-top:19px;
+	 box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+		border-radius:50%;
+}
+.ca{
+	margin:0 auto;
+	height:300px;
+	text-align: center;	
+	display: table-cell;
+	margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -0%);
+    transform: translate(-50%, -0%);
+	}
+.ca * {
+
+}
+.out{
+
+margin-top:19px;
+}
+
+a {
+color: black;
+}
+.he{
+color:white;
+padding-left:30px;
+text-align:left;
+color: black;
+	
+}
+.cd{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 175px;
+	height:240px;
+    border-radius: 5px;
+	background-color:#ffe0b2;
+	float:left;
+	margin:30px;
+	padding-top:20px;
+	 cursor: pointer;
+	 padding-left:33px;
+	 padding-right:33px;
+}
+
+.cd:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+.container1 {
+    padding: 2px 16px;
+}
+h1{
+
+padding-top:70px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    box-sizing: border-box;
+}
+.buttonsubmit{
+
+ width: 20%;
+    background-color: #CFD8DC;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+	text-align:center;
+	padding:15px;
+}
+@media(max-width: 600px){
+
+h1{
+
+color:white;
+text-align:left;
+font-size:25px;
+padding-top:60px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 60%;
+    border-radius: 5px;
+	background-color: #CFD8DC;
+	padding:20px;
+	margin:0 auto;
+}
+.buttonsubmit{
+
+ width: 40%;
+    background-color: #CFD8DC;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+	text-align:center;
+	padding:15px;
+	margin:10px;
+}
+.cd{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 165px;
+	height:220px;
+    border-radius: 5px;
+	background-color:white;
+	float:center;
+	margin:42px;
+	 cursor: pointer;
+	 font-size:12px;
+	 
+}
+
+.ca{
+	margin:0 auto;
+	
+	}
+}

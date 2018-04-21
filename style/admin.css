@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Jomhuria');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Fascinate');
+
+body {
+	font-size: 14px; 
+	background-color: #f9f1e8;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	}
+
+#head {
+	height: 65px;
+    width: 100%;
+    background-color: #5D4037;
+	float:top;
+	/*box-shadow: 0px 3px 10px #888888;*/
+	} 
+.headerwrap h1 {
+	padding-top: 0px;
+	text-align: left;
+	color: #ffffff;
+	font-size: 40px;
+	padding-left: 10px;
+	position: absolute;
+	font-family: 'Fascinate', cursive;
+	text-shadow: 1px 1px 2px #000000;
+	vertical-align: none;
+    }
+	
+.sentr {
+	float: left;
+	text-align: center;
+	}
+
+
+.items {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+	}
+
+.items * {
+  vertical-align: middle;
+}
+
+.imag {
+	border: 0;
+	padding-right:15px;
+}
+
+.imag:hover {
+    border: 0;
+	-webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all .7s cubic-bezier(0.650, -0.600, 0.240, 1.650);
+    -moz-transition: all .7s cubic-bezier(0.650, -0.600, 0.240, 1.650);
+    transition: all .7s cubic-bezier(0.650, -0.600, 0.240, 1.650);
+	}
+	
+	
+
+
+.search {
+  width: 100%;
+  position: relative
+}
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  background: white;
+  border: 5px solid #5D4037;
+  padding: 5px;
+  height: 50px;
+  border-radius: 0px;
+  outline: none;
+  text-align: left;
+  color: #5D4037;
+  font-size: 17px;
+}
+
+.fa {
+	color: white;
+	}
+
+.picc {
+	padding-top: 60px;
+
+	}
+	
+.searchTerm:focus{
+  color: #5D4037;
+  font-size: 17px;
+}
+
+.searchButton {
+  position: absolute;  
+  right: -50px;
+  width: 45px;
+  height: 50px;
+  border: 1px solid #5D4037;
+  background: #5D4037;
+  text-align: center;
+  color: #fff;
+  border-radius: 0px;
+  cursor: pointer;
+  font-size: 25px;
+  float: left;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+	
+
+@media(max-width: 600px){
+
+.sentr {
+	float: none;
+	text-align: center;
+	}
+
+.headerwrap h1 {
+	font-size: 20px;
+	padding-top: 5px;
+	padding-left: 5px;
+	text-shadow: 1px 1px 2px #000000;
+    }
+	
+.items {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+	}
+
+.items * {
+  vertical-align: middle;
+}
+
+.imag {
+	border: 0;
+	padding-right: 0;
+	padding-top: 15px;
+    width: 110px;
+    height: 120px;
+}
+
+.imag:hover {
+    border: 0;
+	-webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all .7s cubic-bezier(0.650, -0.600, 0.240, 1.650);
+    -moz-transition: all .7s cubic-bezier(0.650, -0.600, 0.240, 1.650);
+    transition: all .7s cubic-bezier(0.650, -0.600, 0.240, 1.650);
+	}
+	
+	.searchTerm {
+  float: none;
+  border: 2px solid #5D4037;
+  padding: 5px;
+  height: 50px;
+  font-size: 14px;
+   text-align: center;
+}
+
+.searchTerm:focus{
+  font-size: 14px;
+   text-align: center;
+}
+
+.searchButton {
+  position: absolute;  
+  right: -50px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #5D4037;
+  background: #5D4037;
+  text-align: center;
+  color: #fff;
+  border-radius: 0px;
+  cursor: pointer;
+  font-size: 20px;
+    left: 35%;
+  transform: translate(0%, -40%);
+}
+.ver {
+	padding-top: 30px;
+	padding-right: 10px;
+	}
+	
+#myButton2 {
+visibility: hidden;
+	 position: absolute;  
+  right: 0px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #5D4037;
+  background: #5D4037;
+  text-align: center;
+  color: #fff;
+  border-radius: 0px;
+  cursor: pointer;
+  font-size: 20px;
+    left: 40%;
+  transform: translate(0%, -40%);
+  }
+
+.picc {
+
+	position: absolute; 
+    left: 0%;
+  transform: translate(0%, -0%);
+	}
+	
+		input { 
+    text-align: center; 
+}
+
+.search input.placeholder {
+    text-align: center;
+}
+.smoothScroll {
+	float: none;
+	}
+
+}

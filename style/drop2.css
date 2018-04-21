@@ -1,0 +1,69 @@
+body {
+    font-family:"Open Sans", Arial, Verdana;
+}
+
+.oop {color: #fff;}
+
+.sidenav {
+    height: 100%;
+	border-radius: 0;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #4C565A;
+	top: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 65px;
+}
+
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    text-align: left;
+    padding-left: 10px;
+	background: transparent;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: white;
+    text-decoration: none;
+	 background: #78909C; 
+}
+
+.sidenav a:focus {
+	text-decoration: none;
+	color: white;
+	}
+
+.sidenav .closebtn {
+    position: absolute;
+	background: transparent;
+	padding-bottom: 20px;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 40px;
+	color: white;
+}
+
+.sidenav .closebtn:hover {
+	background: transparent;
+	}
+
+@media(max-width: 600px){
+  .sidenav {padding-top: 15px;
+}
+  .sidenav a {font-size: 15px;}
+  .sidenav .closebtn {
+    font-size: 25px;
+	 padding-top: 5px;
+}
+}

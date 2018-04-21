@@ -1,0 +1,21 @@
+<html>
+<body>
+<?php
+$host="localhost";
+$username="root";
+$password="";
+$databasename="ifmutility";
+$connect=mysql_connect($host,$username,$password);
+$db=mysql_select_db($databasename);
+if(isset($_GET['id']))
+{
+$id=$_GET['id'];
+$query1=mysql_query("delete from user_detail where id='$id'");
+if($query1)
+{
+header('location:search.php');
+}
+}
+?>
+</body>
+</html>

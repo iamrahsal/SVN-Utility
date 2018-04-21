@@ -1,0 +1,87 @@
+#head {
+	height: 65px;
+    width: 100%;
+	float:top;
+	box-shadow: 0px 3px 10px #888888;
+	background-color: #541313;
+	position: absolute;
+	right: 0;
+    top: 0;
+	} 
+	
+	 #user {
+         font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+         border-collapse: collapse;
+        width: 100%;
+        }
+
+       #user td, #user th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        }
+
+     #user tr:nth-child(even){background-color: #f2f2f2;}
+
+        #user tr:hover {background-color: #ddd;}
+
+       #user th {
+       padding-top: 12px;
+       padding-bottom: 12px;
+       text-align: left;
+       background-color: #541313;
+       color: white;
+      }
+	
+.deta {
+	padding-top: 55px;
+	}
+	
+.deta h2 {
+	font-size: 40px;
+	text-align: center;
+	}
+	
+	.see {
+	float: right;
+	right: 0;
+	padding-bottom: 10px;
+	}
+	
+.see2 {
+	float: left;
+	left: 0;
+	padding-bottom: 10px;
+	width: 50%;
+	}
+	
+.see2 input {
+	height: 9px;
+	float: left;
+	left: 0;
+	}
+	
+	.kkl {
+		padding-top: 75px;
+		}
+	
+	
+	.buttonsubmit {
+	position:relative;
+	background: #541313;
+    color: white;
+	text-align: center;
+	border: none;
+    padding: 10px 30px;
+	left: 0em;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	margin-top: 10px;
+    cursor: pointer;
+	font-family: 'Anaheim', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	}

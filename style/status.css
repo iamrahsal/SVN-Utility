@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Lalezar');
+@import url('https://fonts.googleapis.com/css?family=Anaheim');
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  padding: 1em;
+  font-family: 'Anaheim', sans-serif;
+  font-size: 15px;
+  color: #b9b9b9;
+}
+h3 {
+  color: #002035;
+}
+h2{
+  color: #002035;
+  text-align: center;.
+  font-family: 'Lalezar', cursive;
+}
+
+
+.container {
+  max-width: 80%;
+  width: 90%;
+  padding: 1em 3em 2em 3em;
+  margin: 0em auto;
+  background-color: #fff;
+  border-radius: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+      position: absolute;
+      top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.row {
+  zoom: 1;
+  font-family: 'Anaheim', sans-serif;
+}
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+
+.buttonsubmit {
+    background: #5D4037;
+	border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: auto;
+    cursor: pointer;
+	font-family: 'Anaheim', sans-serif;
+}
+
+.buttonsubmit:hover {
+	background: #ECEFF1;
+    color: #5D4037;
+	transition: 0.5s;
+}
+
+@media only screen and (max-width: 540px) {
+  
+  .container {
+  max-width: 30em;
+  padding: 1em 3em 2em 3em;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 0px;
+   position: relative;
+      top: 0%;
+    left: 0%;
+    -ms-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
+}
+
+body {
+  font-size: 13px;
+}
+
+.row {
+  zoom: 1;
+  font-family: 'Anaheim', sans-serif;
+}
+
+
+.buttonsubmit {
+    border-radius: 0px;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 14px;
+	float: none;
+}
+
+}
